@@ -223,7 +223,4 @@ public class SpringMockitoApplicationTests {
 				.andExpect(jsonPath("$.status",is("METHOD_NOT_ALLOWED")))
 				.andDo(print());
 	}
-
-
-
 }
