@@ -19,6 +19,7 @@ import static org.mockito.Mockito.*;
 @RunWith(SpringRunner.class)
 public class UserDataServiceTest
 {
+
     @Mock
     private UserDataRepository userDataRepository;
 
