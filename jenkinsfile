@@ -8,7 +8,7 @@ pipeline
       sh "${mvnHome}/bin/mvn package"
    
          }
-      }
+      }}}
       }
       stage ('Testing Stage')
       {
